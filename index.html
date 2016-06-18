@@ -1,0 +1,85 @@
+<!-- CDN for Bootstrap and Awesome Fonts have been included in the Head tag for this template. Please note that when removing the Bootstrap CDN the lay-out for the contact form will change automatically. !-->
+
+
+<!-- This top div can be used to style the navigation bar either veritcally or horizontally. More links can be added as necessary. !-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+</head>
+<body>
+<div id=#navbar>
+  <nav>
+    <ul>
+      <li>
+        <a href='#'>Page 1</a>
+      </li>
+      <li>
+        <a href='#'>Page 2</a>
+      </li>
+      <li>
+        <a href='#'>Page 3</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- image tag for logo is also included in the nav bar div for easier positioning and styling!-->
+  <div id='logo'>
+    <img src="#" alt='Logo Placed Here' />
+  </div>
+</div>
+<!-- Hero Image can be styled in a seperate CSS file to be a background of the Heading and catch phrase. ID hero-image has been created to allow for the styling of these elements in a single area !-->
+<div id='hero-image'>
+  <h1>Heading</h1>
+  <h2>catch phrase</h2>
+</div>
+<!-- Div class container has been added for bootstrap integration. This is not necessary for styling, however has been included if there is a need for bootstrap styling. Div ID main is the element that would generally be where the stying would take place !-->
+<div class='container'>
+  <div id='main'>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae ante a elit aliquam fringilla. Nullam interdum id turpis in consequat. Nullam et magna ac felis fermentum suscipit sed non eros. Nulla et dui a leo efficitur pulvinar. Praesent
+      in augue lacinia, euismod nisi non, pharetra mauris.</p>
+    <p>Etiam sit amet tellus dapibus, viverra magna ac, commodo metus. Fusce eu ex commodo, suscipit neque vel, mollis velit. Nulla eget arcu sed velit varius vestibulum viverra quis lectus. Maecenas finibus ut ligula non sollicitudin. Suspendisse potenti.
+      Cras a facilisis lorem, eget lacinia tellus.</p>
+    <p>Nam vehicula, purus eget varius ornare, sem nisi cursus quam, congue consequat eros diam non ante. Etiam dapibus ipsum sit amet efficitur imperdiet. Ut placerat quam ut ex fringilla lobortis. Proin pellentesque convallis lacus.</p>
+  </div>
+  </div>
+  <!--simple contact form has standard fields created for submission !-->
+  <div id="form-wrap">
+    <form action="contactform.php" method ="POST">
+      <fieldset>
+        <h4>Contact Us</h4>
+        <label class='labelone' for="name">Full Name: </label>
+        <input name="name" />
+        <label for='phonenumber'>Best Contact Number: </label>
+        <input name='phonenumber' />
+        <label for='email'>Email: </label>
+        <input name="email" />
+        <label for='company'>Company Name: </label>
+        <input name='company' />
+        <label for="comments">Comments: </label>
+        <textarea name='comments'></textarea>
+
+      </fieldset>
+      </form>
+      <fieldset>
+        <label for='captcha'>*We just want to make sure you are human (Anti-Spam). What is 2 + 3?></label>
+        <input name='captcha' placeholder='Enter Answer Here'>
+        <input class='btn' type='submit' name='submit' value='Send Email' />
+        <input class='btn' type='reset' name='reset' value='Reset Form' />
+
+      </fieldset>
+      <!--Footer is used to hold links to social media content and for the information of the development company.  !-->
+      <footer>
+        <a href='http://facebook.com'><i class='fa fa-facebook-square'></i></a>
+        <a href='#'><i class='fa-linkedin-square'></i></a>
+        <a href='#'><i class='fa-google-plus'></i></a>
+        <p>Powered By: </p>
+        <a href='#hookandshadow.com'><img src='#' alt="HSBlackType.png" /></a>
+        <a href='#hookandshadow.com'><img src='#' alt='HSWhiteType.png' /></a>
+      </footer>
+      </div>
+      </body>
+      </html>
